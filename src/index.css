@@ -1,0 +1,49 @@
+body{
+  background-color: #f3f3f3;
+}
+.monster-section{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-direction: column;
+  background-color: #f3f3f3;
+}
+.monster-section input,
+.loading-section input{
+  outline: none;
+  border: 1px solid #eaeaea;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.monster-section h1,
+.loading-section h1{
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:  darkslateblue;
+}
+.loading-section{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-direction: column;
+}
+@media screen and (max-width: 767px) {
+  .monster-section{
+    gap: 1rem;
+  }
+} 
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .monster-section {
+    gap: 2rem;
+  }
+} 
+@media screen and (min-width: 993px) {
+  .monster-section {
+    gap: 4rem;
+  }
+}

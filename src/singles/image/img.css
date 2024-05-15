@@ -1,0 +1,11 @@
+.hero-img {
+  background: #483d8b;
+  width: 100%;
+  transition: background 0.3s ease;
+}
+.hero-img img {
+  width: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
