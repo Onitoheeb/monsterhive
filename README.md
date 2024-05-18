@@ -1,6 +1,6 @@
 # React Template
 
-This is a React project template using webpack for Spck for NodeJS. This project template was made with the help of `createapp.dev`.
+This is a React project template using webpack for Spck for NodeJS. This project template was made with the help of `createapp.dev`. oni
 
 ## Building and Running
 
